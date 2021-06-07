@@ -24,7 +24,7 @@ myObject.func();
 //  that is now stored in self. Self here refers to our object
 
 // inner func:  this.name = undefined
-// third output=>the method func has an inner anonymous function. Through my knowledge of scopes it is evident
+// third output=>the method func has an inner anonymous function. using my knowledge of scopes it is evident
 // that the anonymous inner function has no access to 'this',,our object directly and that is why it brings an undefined
 // error
 
