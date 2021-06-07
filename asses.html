@@ -30,13 +30,7 @@
     <p class="w3-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
   </section>
 
-  <!-- On the contact us page, ask the user for the following details(5 marks):
-Company Name
-Phone number
-Location
-Booking dates -- i should choose date from a calendar 
-Display this information with the filled in details. I.e 
-grab the user input then display is on the screen(5 marks) -->
+
   <div id="contact">
     <h1>Contact Us</h1>
 <form>
@@ -44,7 +38,7 @@ grab the user input then display is on the screen(5 marks) -->
     <input type ="text" id="companyName"><br>
 
     <label for ="phonennumber ">Phone Number:</label><br>
-    <input type ="text" id="phonenumber"><br>
+    <input type ="tel" id="phonenumber"><br>
 
     <label for ="location ">Location:</label><br>
     <input type ="text" id="location"><br>
@@ -89,25 +83,4 @@ grab the user input then display is on the screen(5 marks) -->
   </body>
   </html>
 
-  How Carousel is Moving
-  HTML CODE
-  We first have a section where we store all the images we want
-  to be in the carrousel. In our case we have 3 images. All our images have the same class name 
-  which is 'mySlides' and it is used to apply the same styling and functionality to all of them
-  without necessarily having to stle each individual image.
-
- JS CODE
- we declare a variable myIndex which stands for the number/index of the images in our html
- we then call a function 'carousel'.
- in our function we declare an abitrary variable (i) which in this case stands for the index position
- of each image. We then use the method (getElementsByClassName) to get all elements with the mySlides Name
- and store them as array elements in a variable x.
- we then use the DOM display method to hide the array (x) that we have just created
-
- Afterwards, we increment our images i.e move to the next image then set a condition to
- check whether the number of images are greater than the size of our array that we set aside to store the 
- images.
- Using the display block method we display the current image and set a timer to it to only last 3 seconds
-  
-  
-  
+ 
