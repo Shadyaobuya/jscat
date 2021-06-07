@@ -38,8 +38,11 @@ myObject.func();
 
 OUTPUT OF ABOVE CODE:
 outer func:  this.name = Lovelace
+
 outer func:  self.name = Lovelace
+
 inner func:  this.name = undefined
+
 inner func:  self.name = Lovelace
 
 
